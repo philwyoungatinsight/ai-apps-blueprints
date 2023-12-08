@@ -6,26 +6,17 @@ order to develop GenAI Apps.
 
 # Directories
 
-## backlog
-The backlog has a directory for blueprints that might be useful to have.
+Each directory has a README explaining the goals of the blueprint.
 
-Each dir has a README explaining the goals of the blueprint.
+The goal is for each directory to represent a re-usable/documented
+component.
 
-# Naming convention is General-to-Specific
+# Conventions
+
+## Naming convention is General-to-Specific
 Some named examples:
-- infra-aws-bastion-host
-- infra-aws-env-sagemaker-with-nemo
-- infra-linux-ssh
+- solution-nemo-on-k8s
+- component-aws-vms-via-terragrunt
+- component-k8s-cluster-via-kubespray
 - language-python-boiler-plate-app
 - language-python-config-via-hydra
-
-## examples
-Examples are meant to demonstrate small, independent concepts
-and bits of functionality.
-
-## projects
-Projects collect complex tasks, like:
-- setting up some infrastucture for our dev/test work
-  AND adding the code that deploys and runs apps in it.
-
-
